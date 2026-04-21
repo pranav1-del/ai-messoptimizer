@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Mess Optimizer</title>
+    <style>
+        body {
+            font-family: Arial;
+            margin: 40px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            width: 600px;
+            margin: auto;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+        }
+        button {
+            padding: 10px 15px;
+            background: #2c7;
+            border: none;
+            color: white;
+            cursor: pointer;
+        }
+        h2 { text-align: center; }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+    <h2>🍛 AI Smart Mess Optimizer</h2>
+
+    <!-- ML Prediction -->
+    <form action="/predict" method="post">
+        <h3>Predict Meals Demand</h3>
+        <input type="text" name="attendance" placeholder="Enter Attendance %" required>
+        <button type="submit">Predict</button>
